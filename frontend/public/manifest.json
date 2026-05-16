@@ -1,0 +1,22 @@
+{
+  "name": "VedaHeal - Ayurvedic Wellness",
+  "short_name": "VedaHeal",
+  "description": "Heal naturally with Ayurveda & Yoga. 798 herbs, 30 health problems, AI chatbot.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8faf8",
+  "theme_color": "#2d6a4f",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

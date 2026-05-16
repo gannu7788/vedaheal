@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: vedaheal
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: GROQ_API_KEY
+        sync: false

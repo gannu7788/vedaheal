@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#2d6a4f" />
+  <meta name="description" content="VedaHeal - Ayurvedic Remedies & Yogic Exercises for holistic healing" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="VedaHeal" />
+  <link rel="apple-touch-icon" href="/icons/icon-192.svg" />
+  <title>VedaHeal - Heal Naturally with Ayurveda & Yoga | Free Ayurvedic Remedies</title>
+  <meta name="keywords" content="ayurveda, ayurvedic remedies, yoga, herbs, natural healing, dosha, health, wellness, indian medicine" />
+  <meta name="author" content="VedaHeal" />
+  <meta property="og:title" content="VedaHeal - Heal Naturally with Ayurveda & Yoga" />
+  <meta property="og:description" content="798 herbs, 45 health problems, AI chatbot, personalized healing protocols. Free Ayurvedic wellness app." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google AdSense - Replace ca-pub-XXXXX with your AdSense publisher ID -->
+  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXX" crossorigin="anonymous"></script> -->
+  <style>
+    .goog-te-banner-frame { display: none !important; }
+    body { top: 0 !important; }
+    #google_translate_element {
+      position: fixed;
+      top: 12px;
+      right: 70px;
+      z-index: 9999;
+    }
+    #google_translate_element .goog-te-gadget {
+      font-size: 0 !important;
+      margin: 0;
+    }
+    #google_translate_element .goog-te-gadget .goog-te-combo {
+      padding: 6px 10px;
+      border: none;
+      border-radius: 6px;
+      background: rgba(255,255,255,0.15);
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 600;
+      cursor: pointer;
+      outline: none;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+    #google_translate_element .goog-te-gadget .goog-te-combo option {
+      color: #333;
+      background: white;
+    }
+    .skiptranslate { display: none !important; }
+    body { top: 0 !important; }
+  </style>
+  <script type="module" crossorigin src="/assets/index-d96e63ab.js"></script>
+  <link rel="stylesheet" href="/assets/index-0d66a116.css">
+</head>
+<body>
+  <div id="google_translate_element"></div>
+  <div id="root"></div>
+  
+
+  <script>
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'hi,ta,te,kn,ml,bn,mr,gu,pa,en',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        autoDisplay: false
+      }, 'google_translate_element');
+    }
+  </script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  <script>
+    // Register Service Worker for PWA
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').catch(() => {});
+      });
+    }
+  </script>
+</body>
+</html>

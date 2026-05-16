@@ -1,0 +1,19 @@
+{
+  "name": "vedaheal-backend",
+  "version": "1.0.0",
+  "description": "VedaHeal - Ayurvedic remedies and Yogic exercises backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "better-sqlite3": "^11.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "groq-sdk": "^1.2.0",
+    "sql.js": "^1.14.1"
+  }
+}
